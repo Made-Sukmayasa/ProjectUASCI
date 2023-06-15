@@ -1,0 +1,50 @@
+CRITICAL - 2022-04-08 06:15:37 --> Invalid file: index.php
+#0 C:\xampp\htdocs\codeig\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 C:\xampp\htdocs\codeig\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\xampp\htdocs\codeig\app\Controllers\Intan.php(9): view('index')
+#3 C:\xampp\htdocs\codeig\system\CodeIgniter.php(832): App\Controllers\Intan->index()
+#4 C:\xampp\htdocs\codeig\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Intan))
+#5 C:\xampp\htdocs\codeig\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeig\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\codeig\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-08 06:18:01 --> Invalid file: test.php
+#0 C:\xampp\htdocs\codeig\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('test.php')
+#1 C:\xampp\htdocs\codeig\system\Common.php(1089): CodeIgniter\View\View->render('test', Array, true)
+#2 C:\xampp\htdocs\codeig\app\Controllers\Intan.php(9): view('test')
+#3 C:\xampp\htdocs\codeig\system\CodeIgniter.php(832): App\Controllers\Intan->index()
+#4 C:\xampp\htdocs\codeig\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Intan))
+#5 C:\xampp\htdocs\codeig\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeig\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\codeig\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-08 06:44:24 --> Invalid file: Home.php
+#0 C:\xampp\htdocs\codeig\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home.php')
+#1 C:\xampp\htdocs\codeig\system\Common.php(1089): CodeIgniter\View\View->render('Home', Array, true)
+#2 C:\xampp\htdocs\codeig\app\Controllers\Intan.php(9): view('Home')
+#3 C:\xampp\htdocs\codeig\system\CodeIgniter.php(832): App\Controllers\Intan->index()
+#4 C:\xampp\htdocs\codeig\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Intan))
+#5 C:\xampp\htdocs\codeig\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeig\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\codeig\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-08 06:45:03 --> Invalid file: Home.php
+#0 C:\xampp\htdocs\codeig\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home.php')
+#1 C:\xampp\htdocs\codeig\system\Common.php(1089): CodeIgniter\View\View->render('Home', Array, true)
+#2 C:\xampp\htdocs\codeig\app\Controllers\Intan.php(9): view('Home')
+#3 C:\xampp\htdocs\codeig\system\CodeIgniter.php(832): App\Controllers\Intan->index()
+#4 C:\xampp\htdocs\codeig\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Intan))
+#5 C:\xampp\htdocs\codeig\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeig\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\codeig\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-08 06:45:16 --> Invalid file: home.php
+#0 C:\xampp\htdocs\codeig\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+#1 C:\xampp\htdocs\codeig\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\xampp\htdocs\codeig\app\Controllers\Intan.php(9): view('home')
+#3 C:\xampp\htdocs\codeig\system\CodeIgniter.php(832): App\Controllers\Intan->index()
+#4 C:\xampp\htdocs\codeig\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Intan))
+#5 C:\xampp\htdocs\codeig\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeig\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\codeig\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

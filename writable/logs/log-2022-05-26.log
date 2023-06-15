@@ -1,0 +1,533 @@
+CRITICAL - 2022-05-26 04:19:30 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\project\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\project\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\project\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\project\spark(45): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-05-26 00:01:39 --> Undefined property: App\Controllers\PengunjungController::$contact
+#0 C:\xampp\htdocs\project\app\Controllers\PengunjungController.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\PengunjungController->edit('1')
+#2 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengunjungController))
+#3 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-05-26 00:02:10 --> Column 'nama' cannot be null
+CRITICAL - 2022-05-26 00:02:10 --> Column 'nama' cannot be null
+#0 C:\xampp\htdocs\project\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\project\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\project\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\project\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\project\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\project\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\project\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\project\app\Controllers\PengunjungController.php(30): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\PengunjungController->create()
+#9 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengunjungController))
+#10 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-05-26 00:02:21 --> Column 'nama' cannot be null
+CRITICAL - 2022-05-26 00:02:21 --> Column 'nama' cannot be null
+#0 C:\xampp\htdocs\project\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\project\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\project\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\project\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\project\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\project\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\project\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\project\app\Controllers\PengunjungController.php(30): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\PengunjungController->create()
+#9 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengunjungController))
+#10 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-05-26 00:02:53 --> Column 'nama' cannot be null
+CRITICAL - 2022-05-26 00:02:53 --> Column 'nama' cannot be null
+#0 C:\xampp\htdocs\project\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\project\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\project\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\project\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\project\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\project\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\project\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\project\app\Controllers\PengunjungController.php(30): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\PengunjungController->create()
+#9 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengunjungController))
+#10 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-05-26 00:04:08 --> Column 'nama' cannot be null
+CRITICAL - 2022-05-26 00:04:08 --> Column 'nama' cannot be null
+#0 C:\xampp\htdocs\project\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\project\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\project\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\project\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\project\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\project\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\project\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\project\app\Controllers\PengunjungController.php(30): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\PengunjungController->create()
+#9 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengunjungController))
+#10 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-05-26 00:05:02 --> Column 'nama' cannot be null
+CRITICAL - 2022-05-26 00:05:02 --> Column 'nama' cannot be null
+#0 C:\xampp\htdocs\project\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\project\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\project\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\project\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\project\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\project\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\project\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\project\app\Controllers\PengunjungController.php(30): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\PengunjungController->create()
+#9 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengunjungController))
+#10 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-05-26 00:06:10 --> Column 'nama' cannot be null
+CRITICAL - 2022-05-26 00:06:10 --> Column 'nama' cannot be null
+#0 C:\xampp\htdocs\project\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\project\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\project\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\project\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\project\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\project\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\project\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\project\app\Controllers\PengunjungController.php(30): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\PengunjungController->create()
+#9 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengunjungController))
+#10 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-05-26 00:07:58 --> Column 'nama' cannot be null
+CRITICAL - 2022-05-26 00:07:58 --> Column 'nama' cannot be null
+#0 C:\xampp\htdocs\project\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\project\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\project\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\project\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\project\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\project\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\project\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\project\app\Controllers\PengunjungController.php(30): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\PengunjungController->create()
+#9 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengunjungController))
+#10 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-05-26 00:09:48 --> Column 'nama' cannot be null
+CRITICAL - 2022-05-26 00:09:48 --> Column 'nama' cannot be null
+#0 C:\xampp\htdocs\project\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\project\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\project\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\project\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\project\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\project\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\project\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\project\app\Controllers\PengunjungController.php(30): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\PengunjungController->create()
+#9 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengunjungController))
+#10 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-05-26 00:10:11 --> Column 'nama' cannot be null
+CRITICAL - 2022-05-26 00:10:11 --> Column 'nama' cannot be null
+#0 C:\xampp\htdocs\project\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\project\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\project\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\project\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\project\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\project\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\project\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\project\app\Controllers\PengunjungController.php(30): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\PengunjungController->create()
+#9 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengunjungController))
+#10 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-05-26 00:15:32 --> Column 'nama' cannot be null
+CRITICAL - 2022-05-26 00:15:32 --> Column 'nama' cannot be null
+#0 C:\xampp\htdocs\project\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\project\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\project\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\project\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\project\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\project\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\project\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\project\app\Controllers\PengunjungController.php(30): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\PengunjungController->create()
+#9 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengunjungController))
+#10 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-05-26 00:15:47 --> Column 'nama' cannot be null
+CRITICAL - 2022-05-26 00:15:47 --> Column 'nama' cannot be null
+#0 C:\xampp\htdocs\project\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\project\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\project\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\project\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\project\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\project\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\project\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\project\app\Controllers\PengunjungController.php(30): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\PengunjungController->create()
+#9 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengunjungController))
+#10 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-05-26 00:19:02 --> Column 'nama' cannot be null
+CRITICAL - 2022-05-26 00:19:02 --> Column 'nama' cannot be null
+#0 C:\xampp\htdocs\project\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\project\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\project\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\project\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\project\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\project\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\project\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\project\app\Controllers\PengunjungController.php(30): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\PengunjungController->create()
+#9 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengunjungController))
+#10 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-05-26 00:19:21 --> Column 'nama' cannot be null
+CRITICAL - 2022-05-26 00:19:21 --> Column 'nama' cannot be null
+#0 C:\xampp\htdocs\project\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\project\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\project\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\project\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\project\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\project\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\project\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\project\app\Controllers\PengunjungController.php(30): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\PengunjungController->create()
+#9 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengunjungController))
+#10 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-05-26 00:24:07 --> Column 'nama' cannot be null
+CRITICAL - 2022-05-26 00:24:07 --> Column 'nama' cannot be null
+#0 C:\xampp\htdocs\project\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\project\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\project\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\project\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\project\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\project\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\project\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\project\app\Controllers\PengunjungController.php(30): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\PengunjungController->create()
+#9 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengunjungController))
+#10 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-05-26 00:31:50 --> Column 'nama' cannot be null
+CRITICAL - 2022-05-26 00:31:50 --> Column 'nama' cannot be null
+#0 C:\xampp\htdocs\project\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\project\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\project\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\project\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\project\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\project\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\project\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\project\app\Controllers\PengunjungController.php(32): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\PengunjungController->create()
+#9 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengunjungController))
+#10 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-05-26 00:33:00 --> Column 'nama' cannot be null
+CRITICAL - 2022-05-26 00:33:00 --> Column 'nama' cannot be null
+#0 C:\xampp\htdocs\project\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\project\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\project\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\project\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\project\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\project\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\project\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\project\app\Controllers\PengunjungController.php(32): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\PengunjungController->create()
+#9 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengunjungController))
+#10 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-05-26 00:34:17 --> Column 'nama' cannot be null
+CRITICAL - 2022-05-26 00:34:17 --> Column 'nama' cannot be null
+#0 C:\xampp\htdocs\project\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\project\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\project\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\project\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\project\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\project\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\project\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\project\app\Controllers\PengunjungController.php(33): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\PengunjungController->create()
+#9 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengunjungController))
+#10 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-05-26 00:36:59 --> Column 'nama' cannot be null
+CRITICAL - 2022-05-26 00:36:59 --> Column 'nama' cannot be null
+#0 C:\xampp\htdocs\project\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\project\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\project\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\project\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\project\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\project\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\project\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\project\app\Controllers\PengunjungController.php(33): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\PengunjungController->create()
+#9 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengunjungController))
+#10 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-05-26 00:37:11 --> Column 'nama' cannot be null
+CRITICAL - 2022-05-26 00:37:11 --> Column 'nama' cannot be null
+#0 C:\xampp\htdocs\project\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\project\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\project\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\project\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\project\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\project\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\project\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\project\app\Controllers\PengunjungController.php(33): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\PengunjungController->create()
+#9 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengunjungController))
+#10 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-05-26 00:40:54 --> Column 'nama' cannot be null
+CRITICAL - 2022-05-26 00:40:54 --> Column 'nama' cannot be null
+#0 C:\xampp\htdocs\project\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\project\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\project\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\project\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\project\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\project\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\project\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\project\app\Controllers\PengunjungController.php(32): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\PengunjungController->create()
+#9 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengunjungController))
+#10 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-05-26 00:43:13 --> Column 'nama' cannot be null
+CRITICAL - 2022-05-26 00:43:13 --> Column 'nama' cannot be null
+#0 C:\xampp\htdocs\project\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\project\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\project\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\project\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\project\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\project\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\project\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\project\app\Controllers\PengunjungController.php(32): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\PengunjungController->create()
+#9 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengunjungController))
+#10 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-05-26 00:44:59 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:44:59 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:00 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:00 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:00 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:00 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:00 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:00 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:00 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:01 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:01 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:01 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:01 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:01 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:01 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:01 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:01 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:02 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:02 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:03 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:03 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:03 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:03 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:03 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:04 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:04 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:04 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:04 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:04 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:04 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:04 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:05 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:05 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:05 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:05 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:05 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:05 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:05 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:06 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:11 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:11 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:11 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:11 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:11 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:11 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:11 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:12 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:12 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:12 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:12 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:12 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:12 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:12 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:13 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:13 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:13 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:13 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:13 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:13 --> Column 'nama' cannot be null
+ERROR - 2022-05-26 00:45:43 --> Column 'nama' cannot be null
+CRITICAL - 2022-05-26 00:45:43 --> Column 'nama' cannot be null
+#0 C:\xampp\htdocs\project\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\project\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\project\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\project\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\project\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\project\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\project\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\project\app\Controllers\PengunjungController.php(32): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\PengunjungController->create()
+#9 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengunjungController))
+#10 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-05-26 00:48:17 --> Column 'name' cannot be null
+CRITICAL - 2022-05-26 00:48:17 --> Column 'name' cannot be null
+#0 C:\xampp\htdocs\project\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\project\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\project\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\project\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\project\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\project\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\project\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\project\app\Controllers\PengunjungController.php(32): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\PengunjungController->create()
+#9 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengunjungController))
+#10 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-05-26 00:48:19 --> Undefined array key "nama"
+#0 C:\xampp\htdocs\project\app\Views\pengunjung.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 47)
+#1 C:\xampp\htdocs\project\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\project\system\Common.php(1089): CodeIgniter\View\View->render('pengunjung', Array, true)
+#4 C:\xampp\htdocs\project\app\Controllers\PengunjungController.php(20): view('pengunjung', Array)
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\PengunjungController->index()
+#6 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengunjungController))
+#7 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-26 00:48:35 --> Undefined array key "nama"
+#0 C:\xampp\htdocs\project\app\Views\pengunjung.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 47)
+#1 C:\xampp\htdocs\project\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\project\system\Common.php(1089): CodeIgniter\View\View->render('pengunjung', Array, true)
+#4 C:\xampp\htdocs\project\app\Controllers\PengunjungController.php(20): view('pengunjung', Array)
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\PengunjungController->index()
+#6 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengunjungController))
+#7 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-26 00:49:18 --> Undefined array key "nama"
+#0 C:\xampp\htdocs\project\app\Views\pengunjung.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 79)
+#1 C:\xampp\htdocs\project\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\project\system\Common.php(1089): CodeIgniter\View\View->render('pengunjung', Array, true)
+#4 C:\xampp\htdocs\project\app\Controllers\PengunjungController.php(20): view('pengunjung', Array)
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\PengunjungController->index()
+#6 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengunjungController))
+#7 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-05-26 00:50:03 --> Column 'name' cannot be null
+CRITICAL - 2022-05-26 00:50:03 --> Column 'name' cannot be null
+#0 C:\xampp\htdocs\project\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\project\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\project\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\project\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\project\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\project\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\project\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\project\app\Controllers\PengunjungController.php(32): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\PengunjungController->create()
+#9 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengunjungController))
+#10 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-05-26 00:52:48 --> Column 'nim' cannot be null
+CRITICAL - 2022-05-26 00:52:48 --> Column 'nim' cannot be null
+#0 C:\xampp\htdocs\project\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\project\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\project\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\project\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\project\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\project\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\project\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\project\app\Controllers\PengunjungController.php(32): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\PengunjungController->create()
+#9 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengunjungController))
+#10 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-05-26 00:54:40 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\project\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\project\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\project\app\Controllers\PengunjungController.php(35): redirect('pengunjung')
+#3 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\PengunjungController->create()
+#4 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengunjungController))
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2022-05-26 18:10:26 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-05-26 18:10:26 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\project\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\project\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\project\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\project\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\project\app\Controllers\PengunjungController.php(17): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\PengunjungController->index()
+#6 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengunjungController))
+#7 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

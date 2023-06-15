@@ -1,0 +1,14 @@
+ERROR - 2022-06-30 10:54:25 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-06-30 10:54:25 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/madesukmayasa/Documents/SEMESTER 6/framework/kelompok CI/project/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/madesukmayasa/Documents/SEMESTER 6/framework/kelompok CI/project/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/madesukmayasa/Documents/SEMESTER 6/framework/kelompok CI/project/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/madesukmayasa/Documents/SEMESTER 6/framework/kelompok CI/project/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/madesukmayasa/Documents/SEMESTER 6/framework/kelompok CI/project/app/Controllers/PengunjungController.php(17): CodeIgniter\BaseModel->findAll()
+#5 /Users/madesukmayasa/Documents/SEMESTER 6/framework/kelompok CI/project/system/CodeIgniter.php(832): App\Controllers\PengunjungController->index()
+#6 /Users/madesukmayasa/Documents/SEMESTER 6/framework/kelompok CI/project/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengunjungController))
+#7 /Users/madesukmayasa/Documents/SEMESTER 6/framework/kelompok CI/project/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/madesukmayasa/Documents/SEMESTER 6/framework/kelompok CI/project/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#9 /Users/madesukmayasa/Documents/SEMESTER 6/framework/kelompok CI/project/system/Commands/Server/rewrite.php(43): require_once('/Users/madesukm...')
+#10 {main}

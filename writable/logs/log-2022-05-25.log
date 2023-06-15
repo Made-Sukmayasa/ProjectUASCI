@@ -1,0 +1,845 @@
+CRITICAL - 2022-05-25 10:14:05 --> Invalid file: tampil.php
+#0 C:\xampp\htdocs\project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tampil.php')
+#1 C:\xampp\htdocs\project\system\Common.php(1089): CodeIgniter\View\View->render('tampil', Array, true)
+#2 C:\xampp\htdocs\project\app\Controllers\Home.php(14): view('tampil', Array)
+#3 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-25 10:14:14 --> Invalid file: tampil.php
+#0 C:\xampp\htdocs\project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tampil.php')
+#1 C:\xampp\htdocs\project\system\Common.php(1089): CodeIgniter\View\View->render('tampil', Array, true)
+#2 C:\xampp\htdocs\project\app\Controllers\Home.php(14): view('tampil', Array)
+#3 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-25 10:14:20 --> Invalid file: tampil.php
+#0 C:\xampp\htdocs\project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tampil.php')
+#1 C:\xampp\htdocs\project\system\Common.php(1089): CodeIgniter\View\View->render('tampil', Array, true)
+#2 C:\xampp\htdocs\project\app\Controllers\Home.php(14): view('tampil', Array)
+#3 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-25 10:14:56 --> Invalid file: tampil.php
+#0 C:\xampp\htdocs\project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tampil.php')
+#1 C:\xampp\htdocs\project\system\Common.php(1089): CodeIgniter\View\View->render('tampil', Array, true)
+#2 C:\xampp\htdocs\project\app\Controllers\Home.php(14): view('tampil', Array)
+#3 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-25 10:41:32 --> Undefined variable $dataMahasiswa
+#0 C:\xampp\htdocs\project\app\Views\home.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\project\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\project\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\project\app\Controllers\Home.php(11): view('home')
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-25 10:42:40 --> Undefined variable $dataMahasiswa
+#0 C:\xampp\htdocs\project\app\Views\home.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\project\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\project\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\project\app\Controllers\Home.php(11): view('home')
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-25 10:43:55 --> Undefined variable $dataMahasiswa
+#0 C:\xampp\htdocs\project\app\Views\home.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\project\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\project\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\project\app\Controllers\Home.php(11): view('home')
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-05-25 10:54:43 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-05-25 10:54:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\xampp\htdocs\project\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\project\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\project\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\project\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\project\app\Controllers\Home.php(21): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\Home->daftar()
+#6 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-25 11:02:03 --> Undefined variable $tb_pengunjung
+#0 C:\xampp\htdocs\project\app\Views\daftar.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 129)
+#1 C:\xampp\htdocs\project\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\project\system\Common.php(1089): CodeIgniter\View\View->render('daftar', Array, true)
+#4 C:\xampp\htdocs\project\app\Controllers\Home.php(11): view('daftar')
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-25 11:02:09 --> Undefined variable $tb_pengunjung
+#0 C:\xampp\htdocs\project\app\Views\daftar.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 129)
+#1 C:\xampp\htdocs\project\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\project\system\Common.php(1089): CodeIgniter\View\View->render('daftar', Array, true)
+#4 C:\xampp\htdocs\project\app\Controllers\Home.php(11): view('daftar')
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-25 11:02:18 --> Invalid file: index.php
+#0 C:\xampp\htdocs\project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 C:\xampp\htdocs\project\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\xampp\htdocs\project\app\Controllers\Home.php(11): view('index')
+#3 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-25 18:27:32 --> Undefined variable $dataMahasiswa
+#0 C:\xampp\htdocs\project\app\Views\home.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\project\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\project\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\project\app\Controllers\Home.php(12): view('home')
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-25 18:27:32 --> Undefined variable $dataMahasiswa
+#0 C:\xampp\htdocs\project\app\Views\home.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\project\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\project\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\project\app\Controllers\Home.php(12): view('home')
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-25 18:28:32 --> Undefined variable $dataMahasiswa
+#0 C:\xampp\htdocs\project\app\Views\home.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\project\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\project\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\project\app\Controllers\Home.php(12): view('home')
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-25 19:17:23 --> syntax error, unexpected token "public", expecting end of file
+#0 C:\xampp\htdocs\project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-25 19:23:02 --> syntax error, unexpected token "public", expecting end of file
+#0 C:\xampp\htdocs\project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-25 19:33:19 --> syntax error, unexpected token "public"
+#0 C:\xampp\htdocs\project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-25 19:33:22 --> syntax error, unexpected token "public"
+#0 C:\xampp\htdocs\project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-25 19:33:25 --> syntax error, unexpected token "public"
+#0 C:\xampp\htdocs\project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-25 19:36:29 --> syntax error, unexpected token "public"
+#0 C:\xampp\htdocs\project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\project\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\project\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2022-05-25 19:52:29 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+ERROR - 2022-05-25 19:53:55 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+ERROR - 2022-05-25 19:54:31 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+ERROR - 2022-05-25 20:03:57 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: ****)
+ERROR - 2022-05-25 20:04:26 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+ERROR - 2022-05-25 20:05:05 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+ERROR - 2022-05-25 20:05:27 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+ERROR - 2022-05-25 20:07:23 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: YES)
+ERROR - 2022-05-25 20:07:35 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: ****)
+ERROR - 2022-05-25 20:09:20 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: YES)
+ERROR - 2022-05-25 20:10:25 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+ERROR - 2022-05-25 20:10:37 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: YES)
+ERROR - 2022-05-25 20:10:46 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: ****)
+ERROR - 2022-05-25 20:10:59 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: ****)
+ERROR - 2022-05-25 20:11:03 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: YES)
+CRITICAL - 2022-05-25 20:12:36 --> syntax error, unexpected single-quoted string "database", expecting "]"
+#0 C:\xampp\htdocs\project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Database')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Database')
+#3 C:\xampp\htdocs\project\system\Config\Factories.php(136): class_exists('Config\\Database')
+#4 C:\xampp\htdocs\project\system\Config\Factories.php(106): CodeIgniter\Config\Factories::locateClass(Array, 'Database')
+#5 C:\xampp\htdocs\project\system\Common.php(198): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#6 C:\xampp\htdocs\project\system\Database\MigrationRunner.php(143): config('Database')
+#7 C:\xampp\htdocs\project\system\Config\Services.php(376): CodeIgniter\Database\MigrationRunner->__construct(Object(Config\Migrations), NULL)
+#8 C:\xampp\htdocs\project\system\Config\BaseService.php(248): CodeIgniter\Config\Services::migrations(Object(Config\Migrations), NULL, false)
+#9 C:\xampp\htdocs\project\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('migrations', Array)
+#10 C:\xampp\htdocs\project\system\Config\Services.php(371): CodeIgniter\Config\BaseService::getSharedInstance('migrations', NULL, NULL)
+#11 C:\xampp\htdocs\project\system\Config\BaseService.php(248): CodeIgniter\Config\Services::migrations()
+#12 C:\xampp\htdocs\project\system\Commands\Database\Migrate.php(69): CodeIgniter\Config\BaseService::__callStatic('migrations', Array)
+#13 C:\xampp\htdocs\project\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#14 C:\xampp\htdocs\project\system\CLI\CommandRunner.php(70): CodeIgniter\CLI\Commands->run('migrate', Array)
+#15 C:\xampp\htdocs\project\system\CLI\CommandRunner.php(56): CodeIgniter\CLI\CommandRunner->index(Array)
+#16 C:\xampp\htdocs\project\system\CodeIgniter.php(830): CodeIgniter\CLI\CommandRunner->_remap('index', 'migrate')
+#17 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#18 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#19 C:\xampp\htdocs\project\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#20 C:\xampp\htdocs\project\spark(63): CodeIgniter\CLI\Console->run()
+#21 {main}
+CRITICAL - 2022-05-25 20:12:50 --> syntax error, unexpected single-quoted string "database", expecting "]"
+#0 C:\xampp\htdocs\project\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\project\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Database')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Database')
+#3 C:\xampp\htdocs\project\system\Config\Factories.php(136): class_exists('Config\\Database')
+#4 C:\xampp\htdocs\project\system\Config\Factories.php(106): CodeIgniter\Config\Factories::locateClass(Array, 'Database')
+#5 C:\xampp\htdocs\project\system\Common.php(198): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#6 C:\xampp\htdocs\project\system\Database\MigrationRunner.php(143): config('Database')
+#7 C:\xampp\htdocs\project\system\Config\Services.php(376): CodeIgniter\Database\MigrationRunner->__construct(Object(Config\Migrations), NULL)
+#8 C:\xampp\htdocs\project\system\Config\BaseService.php(248): CodeIgniter\Config\Services::migrations(Object(Config\Migrations), NULL, false)
+#9 C:\xampp\htdocs\project\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('migrations', Array)
+#10 C:\xampp\htdocs\project\system\Config\Services.php(371): CodeIgniter\Config\BaseService::getSharedInstance('migrations', NULL, NULL)
+#11 C:\xampp\htdocs\project\system\Config\BaseService.php(248): CodeIgniter\Config\Services::migrations()
+#12 C:\xampp\htdocs\project\system\Commands\Database\Migrate.php(69): CodeIgniter\Config\BaseService::__callStatic('migrations', Array)
+#13 C:\xampp\htdocs\project\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#14 C:\xampp\htdocs\project\system\CLI\CommandRunner.php(70): CodeIgniter\CLI\Commands->run('migrate', Array)
+#15 C:\xampp\htdocs\project\system\CLI\CommandRunner.php(56): CodeIgniter\CLI\CommandRunner->index(Array)
+#16 C:\xampp\htdocs\project\system\CodeIgniter.php(830): CodeIgniter\CLI\CommandRunner->_remap('index', 'migrate')
+#17 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#18 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#19 C:\xampp\htdocs\project\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#20 C:\xampp\htdocs\project\spark(63): CodeIgniter\CLI\Console->run()
+#21 {main}
+ERROR - 2022-05-25 20:13:13 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+ERROR - 2022-05-25 20:13:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2022-05-25 20:16:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2022-05-25 20:17:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2022-05-25 20:20:30 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: YES)
+ERROR - 2022-05-25 20:20:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2022-05-25 20:22:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2022-05-25 20:23:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2022-05-25 20:27:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2022-05-25 20:29:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2022-05-25 20:29:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2022-05-25 20:29:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2022-05-25 20:33:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-05-25 20:33:44 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\project\system\Database\BaseConnection.php(1369): CodeIgniter\Database\BaseConnection->listTables()
+#1 C:\xampp\htdocs\project\system\Database\MigrationRunner.php(754): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#2 C:\xampp\htdocs\project\system\Database\MigrationRunner.php(634): CodeIgniter\Database\MigrationRunner->ensureTable()
+#3 C:\xampp\htdocs\project\system\Commands\Database\MigrateStatus.php(111): CodeIgniter\Database\MigrationRunner->getHistory('')
+#4 C:\xampp\htdocs\project\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\MigrateStatus->run(Array)
+#5 C:\xampp\htdocs\project\system\CLI\CommandRunner.php(70): CodeIgniter\CLI\Commands->run('migrate:status', Array)
+#6 C:\xampp\htdocs\project\system\CLI\CommandRunner.php(56): CodeIgniter\CLI\CommandRunner->index(Array)
+#7 C:\xampp\htdocs\project\system\CodeIgniter.php(830): CodeIgniter\CLI\CommandRunner->_remap('index', 'migrate:status')
+#8 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#9 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\project\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\project\spark(63): CodeIgniter\CLI\Console->run()
+#12 {main}
+ERROR - 2022-05-25 20:33:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2022-05-25 20:41:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-05-25 20:56:39 --> preg_match(): Compilation failed: missing closing parenthesis at offset 23
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 384)
+#1 C:\xampp\htdocs\project\system\Router\Router.php(384): preg_match('#^pengunjung/ed...', '/', Array)
+#2 C:\xampp\htdocs\project\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('/')
+#3 C:\xampp\htdocs\project\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/')
+#4 C:\xampp\htdocs\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-25 20:58:23 --> preg_match(): Compilation failed: missing closing parenthesis at offset 23
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 384)
+#1 C:\xampp\htdocs\project\system\Router\Router.php(384): preg_match('#^pengunjung/ed...', '/', Array)
+#2 C:\xampp\htdocs\project\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('/')
+#3 C:\xampp\htdocs\project\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/')
+#4 C:\xampp\htdocs\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2022-05-25 20:59:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-05-25 21:02:06 --> preg_match(): Compilation failed: missing closing parenthesis at offset 23
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 384)
+#1 C:\xampp\htdocs\project\system\Router\Router.php(384): preg_match('#^pengunjung/ed...', '/', Array)
+#2 C:\xampp\htdocs\project\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('/')
+#3 C:\xampp\htdocs\project\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/')
+#4 C:\xampp\htdocs\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-25 21:02:23 --> preg_match(): Compilation failed: missing closing parenthesis at offset 23
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 384)
+#1 C:\xampp\htdocs\project\system\Router\Router.php(384): preg_match('#^pengunjung/ed...', '/', Array)
+#2 C:\xampp\htdocs\project\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('/')
+#3 C:\xampp\htdocs\project\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/')
+#4 C:\xampp\htdocs\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2022-05-25 21:03:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`nim` VARCHAR NOT NULL,
+	`no_hp` VARCHAR NOT NULL,
+	`prodi` VARCHA...' at line 3
+CRITICAL - 2022-05-25 21:03:14 --> preg_match(): Compilation failed: missing closing parenthesis at offset 23
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 384)
+#1 C:\xampp\htdocs\project\system\Router\Router.php(384): preg_match('#^pengunjung/ed...', '/', Array)
+#2 C:\xampp\htdocs\project\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('/')
+#3 C:\xampp\htdocs\project\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/')
+#4 C:\xampp\htdocs\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-25 21:04:34 --> preg_match(): Compilation failed: missing closing parenthesis at offset 23
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 384)
+#1 C:\xampp\htdocs\project\system\Router\Router.php(384): preg_match('#^pengunjung/ed...', '/', Array)
+#2 C:\xampp\htdocs\project\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('/')
+#3 C:\xampp\htdocs\project\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/')
+#4 C:\xampp\htdocs\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-25 21:05:13 --> preg_match(): Compilation failed: missing closing parenthesis at offset 23
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 384)
+#1 C:\xampp\htdocs\project\system\Router\Router.php(384): preg_match('#^pengunjung/ed...', '/', Array)
+#2 C:\xampp\htdocs\project\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('/')
+#3 C:\xampp\htdocs\project\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/')
+#4 C:\xampp\htdocs\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-25 21:06:08 --> preg_match(): Compilation failed: missing closing parenthesis at offset 23
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 384)
+#1 C:\xampp\htdocs\project\system\Router\Router.php(384): preg_match('#^pengunjung/ed...', '/', Array)
+#2 C:\xampp\htdocs\project\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('/')
+#3 C:\xampp\htdocs\project\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/')
+#4 C:\xampp\htdocs\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-25 21:06:13 --> preg_match(): Compilation failed: missing closing parenthesis at offset 23
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 384)
+#1 C:\xampp\htdocs\project\system\Router\Router.php(384): preg_match('#^pengunjung/ed...', '/', Array)
+#2 C:\xampp\htdocs\project\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('/')
+#3 C:\xampp\htdocs\project\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/')
+#4 C:\xampp\htdocs\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-25 21:06:24 --> preg_match(): Compilation failed: missing closing parenthesis at offset 23
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 384)
+#1 C:\xampp\htdocs\project\system\Router\Router.php(384): preg_match('#^pengunjung/ed...', '/', Array)
+#2 C:\xampp\htdocs\project\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('/')
+#3 C:\xampp\htdocs\project\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/')
+#4 C:\xampp\htdocs\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-25 21:07:07 --> preg_match(): Compilation failed: missing closing parenthesis at offset 23
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 384)
+#1 C:\xampp\htdocs\project\system\Router\Router.php(384): preg_match('#^pengunjung/ed...', '/', Array)
+#2 C:\xampp\htdocs\project\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('/')
+#3 C:\xampp\htdocs\project\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/')
+#4 C:\xampp\htdocs\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-25 21:07:07 --> preg_match(): Compilation failed: missing closing parenthesis at offset 23
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 384)
+#1 C:\xampp\htdocs\project\system\Router\Router.php(384): preg_match('#^pengunjung/ed...', '/', Array)
+#2 C:\xampp\htdocs\project\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('/')
+#3 C:\xampp\htdocs\project\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/')
+#4 C:\xampp\htdocs\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-25 21:07:07 --> preg_match(): Compilation failed: missing closing parenthesis at offset 23
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 384)
+#1 C:\xampp\htdocs\project\system\Router\Router.php(384): preg_match('#^pengunjung/ed...', '/', Array)
+#2 C:\xampp\htdocs\project\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('/')
+#3 C:\xampp\htdocs\project\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/')
+#4 C:\xampp\htdocs\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-25 21:07:23 --> preg_match(): Compilation failed: missing closing parenthesis at offset 23
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 384)
+#1 C:\xampp\htdocs\project\system\Router\Router.php(384): preg_match('#^pengunjung/ed...', '/', Array)
+#2 C:\xampp\htdocs\project\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('/')
+#3 C:\xampp\htdocs\project\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/')
+#4 C:\xampp\htdocs\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-25 21:11:14 --> preg_match(): Compilation failed: missing closing parenthesis at offset 23
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 384)
+#1 C:\xampp\htdocs\project\system\Router\Router.php(384): preg_match('#^pengunjung/ed...', '/', Array)
+#2 C:\xampp\htdocs\project\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('/')
+#3 C:\xampp\htdocs\project\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/')
+#4 C:\xampp\htdocs\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-25 21:11:21 --> preg_match(): Compilation failed: missing closing parenthesis at offset 23
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 384)
+#1 C:\xampp\htdocs\project\system\Router\Router.php(384): preg_match('#^pengunjung/ed...', '/', Array)
+#2 C:\xampp\htdocs\project\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('/')
+#3 C:\xampp\htdocs\project\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/')
+#4 C:\xampp\htdocs\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-25 21:13:31 --> preg_match(): Compilation failed: missing closing parenthesis at offset 23
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 384)
+#1 C:\xampp\htdocs\project\system\Router\Router.php(384): preg_match('#^pengunjung/ed...', '/', Array)
+#2 C:\xampp\htdocs\project\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('/')
+#3 C:\xampp\htdocs\project\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/')
+#4 C:\xampp\htdocs\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-25 21:14:30 --> preg_match(): Compilation failed: missing closing parenthesis at offset 23
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 384)
+#1 C:\xampp\htdocs\project\system\Router\Router.php(384): preg_match('#^pengunjung/ed...', '/', Array)
+#2 C:\xampp\htdocs\project\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('/')
+#3 C:\xampp\htdocs\project\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/')
+#4 C:\xampp\htdocs\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-25 21:15:38 --> preg_match(): Compilation failed: missing closing parenthesis at offset 23
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 384)
+#1 C:\xampp\htdocs\project\system\Router\Router.php(384): preg_match('#^pengunjung/ed...', '/', Array)
+#2 C:\xampp\htdocs\project\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('/')
+#3 C:\xampp\htdocs\project\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/')
+#4 C:\xampp\htdocs\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-25 21:17:27 --> preg_match(): Compilation failed: missing closing parenthesis at offset 23
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 384)
+#1 C:\xampp\htdocs\project\system\Router\Router.php(384): preg_match('#^pengunjung/ed...', '/', Array)
+#2 C:\xampp\htdocs\project\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('/')
+#3 C:\xampp\htdocs\project\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/')
+#4 C:\xampp\htdocs\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-25 21:17:43 --> preg_match(): Compilation failed: missing closing parenthesis at offset 23
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 384)
+#1 C:\xampp\htdocs\project\system\Router\Router.php(384): preg_match('#^pengunjung/ed...', '/', Array)
+#2 C:\xampp\htdocs\project\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('/')
+#3 C:\xampp\htdocs\project\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/')
+#4 C:\xampp\htdocs\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-25 21:19:39 --> preg_match(): Compilation failed: missing closing parenthesis at offset 23
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 384)
+#1 C:\xampp\htdocs\project\system\Router\Router.php(384): preg_match('#^pengunjung/ed...', '/', Array)
+#2 C:\xampp\htdocs\project\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('/')
+#3 C:\xampp\htdocs\project\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/')
+#4 C:\xampp\htdocs\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-25 21:20:34 --> preg_match(): Compilation failed: missing closing parenthesis at offset 23
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 384)
+#1 C:\xampp\htdocs\project\system\Router\Router.php(384): preg_match('#^pengunjung/ed...', '/', Array)
+#2 C:\xampp\htdocs\project\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('/')
+#3 C:\xampp\htdocs\project\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/')
+#4 C:\xampp\htdocs\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-25 21:22:45 --> preg_match(): Compilation failed: missing closing parenthesis at offset 23
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 384)
+#1 C:\xampp\htdocs\project\system\Router\Router.php(384): preg_match('#^pengunjung/ed...', '/', Array)
+#2 C:\xampp\htdocs\project\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('/')
+#3 C:\xampp\htdocs\project\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/')
+#4 C:\xampp\htdocs\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-25 21:24:50 --> preg_match(): Compilation failed: missing closing parenthesis at offset 23
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 384)
+#1 C:\xampp\htdocs\project\system\Router\Router.php(384): preg_match('#^pengunjung/ed...', '/', Array)
+#2 C:\xampp\htdocs\project\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('/')
+#3 C:\xampp\htdocs\project\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/')
+#4 C:\xampp\htdocs\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-25 21:26:46 --> preg_match(): Compilation failed: missing closing parenthesis at offset 23
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 384)
+#1 C:\xampp\htdocs\project\system\Router\Router.php(384): preg_match('#^pengunjung/ed...', '/', Array)
+#2 C:\xampp\htdocs\project\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('/')
+#3 C:\xampp\htdocs\project\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/')
+#4 C:\xampp\htdocs\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-25 21:27:11 --> preg_match(): Compilation failed: missing closing parenthesis at offset 23
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 384)
+#1 C:\xampp\htdocs\project\system\Router\Router.php(384): preg_match('#^pengunjung/ed...', '/', Array)
+#2 C:\xampp\htdocs\project\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('/')
+#3 C:\xampp\htdocs\project\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/')
+#4 C:\xampp\htdocs\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-25 21:31:53 --> preg_match(): Compilation failed: missing closing parenthesis at offset 23
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 384)
+#1 C:\xampp\htdocs\project\system\Router\Router.php(384): preg_match('#^pengunjung/ed...', '/', Array)
+#2 C:\xampp\htdocs\project\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('/')
+#3 C:\xampp\htdocs\project\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/')
+#4 C:\xampp\htdocs\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-25 21:32:26 --> preg_match(): Compilation failed: missing closing parenthesis at offset 23
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 384)
+#1 C:\xampp\htdocs\project\system\Router\Router.php(384): preg_match('#^pengunjung/ed...', '/', Array)
+#2 C:\xampp\htdocs\project\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('/')
+#3 C:\xampp\htdocs\project\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/')
+#4 C:\xampp\htdocs\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-25 21:34:43 --> preg_match(): Compilation failed: missing closing parenthesis at offset 23
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 384)
+#1 C:\xampp\htdocs\project\system\Router\Router.php(384): preg_match('#^pengunjung/ed...', '/', Array)
+#2 C:\xampp\htdocs\project\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('/')
+#3 C:\xampp\htdocs\project\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/')
+#4 C:\xampp\htdocs\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-25 21:36:23 --> preg_match(): Compilation failed: missing closing parenthesis at offset 18
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 384)
+#1 C:\xampp\htdocs\project\system\Router\Router.php(384): preg_match('#^pengunjung([^...', '/', Array)
+#2 C:\xampp\htdocs\project\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('/')
+#3 C:\xampp\htdocs\project\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/')
+#4 C:\xampp\htdocs\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-25 21:40:46 --> preg_match(): Compilation failed: missing closing parenthesis at offset 26
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 384)
+#1 C:\xampp\htdocs\project\system\Router\Router.php(384): preg_match('#^pengunjung/de...', '/', Array)
+#2 C:\xampp\htdocs\project\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('/')
+#3 C:\xampp\htdocs\project\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/')
+#4 C:\xampp\htdocs\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-25 23:01:06 --> syntax error, unexpected token ";", expecting ")"
+#0 C:\xampp\htdocs\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-05-25 23:02:46 --> syntax error, unexpected token ";", expecting ")"
+#0 C:\xampp\htdocs\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-05-25 23:08:59 --> Unmatched '}'
+#0 C:\xampp\htdocs\project\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-05-25 23:09:07 --> Class "App\Models\Pengunjung" not found
+#0 C:\xampp\htdocs\project\system\CodeIgniter.php(809): App\Controllers\PengunjungController->__construct()
+#1 C:\xampp\htdocs\project\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-25 23:09:08 --> Class "App\Models\Pengunjung" not found
+#0 C:\xampp\htdocs\project\system\CodeIgniter.php(809): App\Controllers\PengunjungController->__construct()
+#1 C:\xampp\htdocs\project\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-05-25 23:11:03 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-05-25 23:11:03 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\project\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\project\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\project\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\project\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\project\app\Controllers\PengunjungController.php(18): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\PengunjungController->index()
+#6 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengunjungController))
+#7 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-05-25 23:12:13 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-05-25 23:12:13 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\project\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\project\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\project\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\project\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\project\app\Controllers\PengunjungController.php(18): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\PengunjungController->index()
+#6 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengunjungController))
+#7 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-05-25 23:13:13 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-05-25 23:13:13 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\project\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\project\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\project\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\project\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\project\app\Controllers\PengunjungController.php(18): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\PengunjungController->index()
+#6 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengunjungController))
+#7 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-25 23:13:20 --> Undefined variable $pengunjungs
+#0 C:\xampp\htdocs\project\app\Views\pengunjung.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\project\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\project\system\Common.php(1089): CodeIgniter\View\View->render('pengunjung', Array, true)
+#4 C:\xampp\htdocs\project\app\Controllers\PengunjungController.php(20): view('pengunjung', Array)
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\PengunjungController->index()
+#6 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengunjungController))
+#7 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-25 23:13:44 --> Invalid file: layouts/admin.php
+#0 C:\xampp\htdocs\project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/admin.p...')
+#1 C:\xampp\htdocs\project\system\View\View.php(226): CodeIgniter\View\View->render('layouts/admin', Array, true)
+#2 C:\xampp\htdocs\project\system\Common.php(1089): CodeIgniter\View\View->render('pengunjung', Array, true)
+#3 C:\xampp\htdocs\project\app\Controllers\PengunjungController.php(20): view('pengunjung', Array)
+#4 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\PengunjungController->index()
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengunjungController))
+#6 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-05-25 23:25:15 --> View themes, no current section.
+#0 C:\xampp\htdocs\project\app\Views\pengunjung.php(3): CodeIgniter\View\View->endSection()
+#1 C:\xampp\htdocs\project\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\project\system\Common.php(1089): CodeIgniter\View\View->render('pengunjung', Array, true)
+#4 C:\xampp\htdocs\project\app\Controllers\PengunjungController.php(20): view('pengunjung', Array)
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\PengunjungController->index()
+#6 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengunjungController))
+#7 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-25 23:25:32 --> Invalid file: layouts/admin.php
+#0 C:\xampp\htdocs\project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/admin.p...')
+#1 C:\xampp\htdocs\project\system\View\View.php(226): CodeIgniter\View\View->render('layouts/admin', Array, true)
+#2 C:\xampp\htdocs\project\system\Common.php(1089): CodeIgniter\View\View->render('pengunjung', Array, true)
+#3 C:\xampp\htdocs\project\app\Controllers\PengunjungController.php(20): view('pengunjung', Array)
+#4 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\PengunjungController->index()
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengunjungController))
+#6 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-05-25 23:30:33 --> Invalid file: layouts/components/sidebar.php
+#0 C:\xampp\htdocs\project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/compone...')
+#1 C:\xampp\htdocs\project\system\View\View.php(424): CodeIgniter\View\View->render('layouts/compone...', NULL, true)
+#2 C:\xampp\htdocs\project\app\Views\layouts\admin.php(24): CodeIgniter\View\View->include('layouts/compone...')
+#3 C:\xampp\htdocs\project\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\project\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\project\system\View\View.php(226): CodeIgniter\View\View->render('layouts/admin', Array, true)
+#6 C:\xampp\htdocs\project\system\Common.php(1089): CodeIgniter\View\View->render('pengunjung', Array, true)
+#7 C:\xampp\htdocs\project\app\Controllers\PengunjungController.php(20): view('pengunjung', Array)
+#8 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\PengunjungController->index()
+#9 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengunjungController))
+#10 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-05-25 23:36:31 --> Column 'no_hp' cannot be null
+CRITICAL - 2022-05-25 23:36:31 --> Column 'no_hp' cannot be null
+#0 C:\xampp\htdocs\project\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\project\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\project\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\project\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\project\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\project\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\project\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\project\app\Controllers\PengunjungController.php(30): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\PengunjungController->create()
+#9 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengunjungController))
+#10 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-05-25 23:38:23 --> Column 'nama' cannot be null
+CRITICAL - 2022-05-25 23:38:23 --> Column 'nama' cannot be null
+#0 C:\xampp\htdocs\project\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\project\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\project\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\project\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\project\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\project\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\project\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\project\app\Controllers\PengunjungController.php(30): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\PengunjungController->create()
+#9 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengunjungController))
+#10 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-05-25 23:38:27 --> Undefined array key "name"
+#0 C:\xampp\htdocs\project\app\Views\pengunjung.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 75)
+#1 C:\xampp\htdocs\project\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\project\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\project\system\Common.php(1089): CodeIgniter\View\View->render('pengunjung', Array, true)
+#4 C:\xampp\htdocs\project\app\Controllers\PengunjungController.php(20): view('pengunjung', Array)
+#5 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\PengunjungController->index()
+#6 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengunjungController))
+#7 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-25 23:47:29 --> Invalid file: layouts/components/topbar.php
+#0 C:\xampp\htdocs\project\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/compone...')
+#1 C:\xampp\htdocs\project\system\View\View.php(424): CodeIgniter\View\View->render('layouts/compone...', NULL, true)
+#2 C:\xampp\htdocs\project\app\Views\layouts\admin.php(31): CodeIgniter\View\View->include('layouts/compone...')
+#3 C:\xampp\htdocs\project\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\project\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\project\system\View\View.php(226): CodeIgniter\View\View->render('layouts/admin', Array, true)
+#6 C:\xampp\htdocs\project\system\Common.php(1089): CodeIgniter\View\View->render('pengunjung', Array, true)
+#7 C:\xampp\htdocs\project\app\Controllers\PengunjungController.php(20): view('pengunjung', Array)
+#8 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\PengunjungController->index()
+#9 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengunjungController))
+#10 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-05-25 23:51:35 --> Column 'nama' cannot be null
+CRITICAL - 2022-05-25 23:51:35 --> Column 'nama' cannot be null
+#0 C:\xampp\htdocs\project\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\project\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\project\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\project\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\project\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\project\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\project\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\project\app\Controllers\PengunjungController.php(30): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\project\system\CodeIgniter.php(832): App\Controllers\PengunjungController->create()
+#9 C:\xampp\htdocs\project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PengunjungController))
+#10 C:\xampp\htdocs\project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\project\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\project\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}

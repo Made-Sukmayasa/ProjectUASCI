@@ -12,7 +12,6 @@
 namespace CodeIgniter\Cache\Handlers;
 
 use CodeIgniter\Cache\Exceptions\CacheException;
-use CodeIgniter\I18n\Time;
 use Config\Cache;
 use Throwable;
 
@@ -92,7 +91,7 @@ class FileHandler extends BaseHandler
         $key = static::validateKey($key, $this->prefix);
 
         $contents = [
-            'time' => Time::now()->getTimestamp(),
+            'time' => time(),
             'ttl'  => $ttl,
             'data' => $value,
         ];
@@ -103,7 +102,7 @@ class FileHandler extends BaseHandler
 
                 // @codeCoverageIgnoreStart
             } catch (Throwable $e) {
-                log_message('debug', 'Failed to set mode on cache file: ' . $e);
+                log_message('debug', 'Failed to set mode on cache file: ' . $e->getMessage());
                 // @codeCoverageIgnoreEnd
             }
 
@@ -229,7 +228,7 @@ class FileHandler extends BaseHandler
      * Does the heavy lifting of actually retrieving the file and
      * verifying it's age.
      *
-     * @return array|bool|float|int|object|string|null
+     * @return mixed
      */
     protected function getItem(string $filename)
     {
@@ -242,7 +241,7 @@ class FileHandler extends BaseHandler
             return false;
         }
 
-        if ($data['ttl'] > 0 && Time::now()->getTimestamp() > $data['time'] + $data['ttl']) {
+        if ($data['ttl'] > 0 && time() > $data['time'] + $data['ttl']) {
             // If the file is still there then try to remove it
             if (is_file($this->path . $filename)) {
                 @unlink($this->path . $filename);
@@ -346,7 +345,7 @@ class FileHandler extends BaseHandler
             while (false !== ($file = readdir($fp))) {
                 if (is_dir($sourceDir . $file) && $file[0] !== '.' && $topLevelOnly === false) {
                     $this->getDirFileInfo($sourceDir . $file . DIRECTORY_SEPARATOR, $topLevelOnly, true);
-                } elseif (! is_dir($sourceDir . $file) && $file[0] !== '.') {
+                } elseif ($file[0] !== '.') {
                     $_filedata[$file]                  = $this->getFileInfo($sourceDir . $file);
                     $_filedata[$file]['relative_path'] = $relativePath;
                 }
@@ -366,8 +365,8 @@ class FileHandler extends BaseHandler
      * Options are: name, server_path, size, date, readable, writable, executable, fileperms
      * Returns FALSE if the file cannot be found.
      *
-     * @param string       $file           Path to file
-     * @param array|string $returnedValues Array or comma separated string of information returned
+     * @param string $file           Path to file
+     * @param mixed  $returnedValues Array or comma separated string of information returned
      *
      * @return array|false
      */
